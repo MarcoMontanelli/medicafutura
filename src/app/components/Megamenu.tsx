@@ -7,11 +7,11 @@ import { FaArrowRight } from 'react-icons/fa';
 import { useMegaMenu } from './MegamenuContext'; // Import the context hook
 
 const TABS = [
-  { name: 'Products', links: ['/products/1', '/products/2', '/products/3'] },
-  { name: 'Solutions', links: ['/solutions/1', '/solutions/2', '/solutions/3'] },
-  { name: 'Resources', links: ['/resources/1', '/resources/2', '/resources/3'] },
-  { name: 'Company', links: ['/company/1', '/company/2', '/company/3'] },
-  { name: 'Pricing', links: ['/pricing/1', '/pricing/2', '/pricing/3'] },
+  { name: 'Osteopatia', links: ['/O', '/products/2', '/products/3'] },
+  { name: 'Movimento e Benessere', links: ['/solutions/1', '/solutions/2', '/solutions/3'] },
+  { name: 'Fisioterapia e Riabilitazione', links: ['/resources/1', '/resources/2', '/resources/3'] },
+  { name: 'Ostetricia', links: ['/company/1', '/company/2', '/company/3'] },
+  { name: 'Collaborazioni', links: ['/pricing/1', '/pricing/2', '/pricing/3'] },
 ];
 
 const MegaMenuWithLinks = () => {
